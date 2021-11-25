@@ -1,0 +1,15 @@
+si phanerogame et graine_nue alors sapin et ombre
+si fleur et graine alors phanerogame
+si phanerogame et 1cotyledone alors monocotyledone
+si phanerogame et 2cotyledone alors dicotyledone
+si monocotyledone et rhizome alors muguet
+si dicotyledone alors anemone
+si joli alors non_rhizome
+si monocotyledone et non_rhizome alors lilas
+si feuille et non_fleur alors cryptogame
+si cryptogame et non_racine alors mousse
+si cryptogame et racine alors fougere
+si non_feuille et plante alors thallophyte
+si thallophyte et chlorophylle alors algue
+si thallophyte et non_chlorophylle alors champignon et non_comestible
+si non_feuille et non_fleur et non_plante alors colibacille

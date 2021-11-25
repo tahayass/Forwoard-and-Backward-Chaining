@@ -1,0 +1,11 @@
+-----------------------------
+rules with pingouin as goal. [ 11 ]
+-----------------------------
+chosen rule : 11
+premisses to proove [ oiseau ]
+-----------------------------
+rules with oiseau as goal. [ 15 16 ]
+-----------------------------
+chosen rule : 15
+premisses to proove [ ]
+goal prooven with database

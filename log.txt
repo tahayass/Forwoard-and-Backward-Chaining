@@ -1,0 +1,13 @@
+règle appliqué : 3
+itération num 1 ,nouvelle BF : 
+[plumes , non_vole , nage , noir_et_blanc , mange_herbe , non_carnivore]
+----------------------- 
+règle appliqué : 15
+itération num 2 ,nouvelle BF : 
+[plumes , non_vole , nage , noir_et_blanc , mange_herbe , non_carnivore , oiseau]
+----------------------- 
+règle appliqué : 11
+itération num 3 ,nouvelle BF : 
+[plumes , non_vole , nage , noir_et_blanc , mange_herbe , non_carnivore , oiseau , pingouin]
+----------------------- 
+***** but atteint *****
