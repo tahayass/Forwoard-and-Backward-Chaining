@@ -1,4 +1,3 @@
-
 import os
 import random
 
@@ -170,7 +169,8 @@ def chainage_avant(BR,BF,temp,goal,user_ConfRes,log_check):  #apply the algorith
         if log_check==True :
             log.writelines(l)
     log.close()
-    
+
+ ######################## PARTIE CHAINAGE ARRIERE ########################################   
     
 #recurssive algotithm for prooving goal using 'chainage arriere'
 def proove(BR,temp,prem,conflict_Res,lines):
@@ -248,9 +248,8 @@ def conflict(l,choice):
     else:
         return 0
 
-def listToString(s): 
-    str1 = "[ " 
-    # traverse in the string  
+def listToString(s): #self explainatory
+    str1 = "[ "  
     for ele in s: 
         str1 += (str(ele)+' ') 
     str1 += ']'
@@ -265,12 +264,12 @@ def chainage_arriere(BR,temp,goal,confRes,log_check):
         log= open("log_arriere.txt", "w",encoding='utf-8')   
         lines=[]
         #algorithm ipmlementation
-        proove(BR,temp,goal,confRes,lines)
+        if proove(BR,temp,goal,confRes,lines):
+            print('*********  Primary goal prooven *********')
+            lines.append('*********  Primary goal prooven *********')
         if log_check:
             log.writelines(lines)
             log.close()
-        
-        
 
 
 
